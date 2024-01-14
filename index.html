@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SV Logística</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/awesomplete/1.1.3/awesomplete.css">
+</head>
+
+<body>
+    <header>
+
+     
+
+            <img class="Logo-SV" src="./assets/titulo2.png" alt="Logo-SV-logística">
+            <h1>Transportando e Realizando</h1>
+           
+            <a class="descricao-fazemos" onclick="descricao()" href="#anchor">Quem somos e o que fazemos?</a>
+
+            <button onclick="cliqueinoBotao()">Orçamento</button>
+       
+
+    </header>
+    <img class="transporte" src="./assets/transporte.jpg" alt="transporte">
+    <p class="zap">Entre em Contato!</p>
+
+    <a id="formulario" href="https://wa.me/+5541997548080" target="_blank">
+        <img class="whatsapp-icon" src="./assets/whatsapp-icon.jpeg" alt="WhatsApp">
+
+    </a>
+
+    <form class="fale-conosco" action="https://formsubmit.co/Svlogistica.carga@gmail.com" method="POST">
+        <label for="nome">Seu Nome</label>
+        <input type="text" name="nome" required>
+        <label for="telefone">Contato</label>
+        <input type="tel" name="Telefone" required>
+        <label for="email">E-mail</label>
+        <input type="email" name="Telefone" required>
+        <label for="origemCidade">Origem - Cidade-Estado</label>
+        <input type="text" id="origemCidade" name="origemCidade" required>
+        <label for="destinoCidade">Destino - Cidade-Estado</label>
+        <input type="text" id="destinoCidade" name="destinoCidade" required>
+
+
+
+        <label for="peso">Peso (kg ou tonelada):</label>
+        <input type="text" id="peso" name="peso" required>
+
+        <label for="formaPagamento">Forma de Pagamento:</label>
+        <select id="formaPagamento" name="formaPagamento" required>
+            <option value="pix">PIX</option>
+            <option value="dinheiro">Dinheiro</option>
+            <option value="cheque">Cheque</option>
+            <option value="boleto">Boleto</option>
+        </select>
+
+        <label for="valorNF">Valor da Nota Fiscal:</label>
+        <input type="text" id="valorNF" name="valorNF" required>
+        <textarea placeholder="Obsevação" name="info"></textarea>
+        <div>
+            <button type="submit" onclick="sumirformulario()">Enviar Formulário</button>
+            <button type="button" onclick="voltar()">Voltar</button>
+        </div>
+
+    </form>
+
+    <section class="section">
+        <div id="anchor"></div>
+        <li class="missao"><b>Missão:</b>
+            <ul> Atender todas as dúvidas e necessidade dos clintes sendo ela interno ou externo,
+                tendo uma melhor integração para melhor funcionamento.
+            </ul>
+
+            <b>Visão:</b>
+            <ul> Ser a melhor e maior rede de <b>TRANSPORTE/LOGÍSTICA.</b> Oferecendo a mais alta qualidade com força,
+                garra e união.</ul>
+        </li>
+
+        <li class="missao"><b>Valores:</b>
+
+            <ul>Humildade</ul>
+            <ul>Respeito</ul>
+            <ul>Educação</ul>
+            <ul>Ética</ul>
+            <ul>Confiança</ul>
+
+        </li>
+    </section>
+    <img class="comprou" src="./assets/comprou-chegou.jpeg" alt="comprou-chegou">
+    <section class="comprou-chegou">
+
+        <p>A grande parte dos fretes são tercerizados, com isso tendo uma boa flexibilidade para uma boa
+            competitividade.</p>
+        <h3>Modalidade</h3>
+        <p>Atualmente a empresa trabalha só com a modalidade <b>RODOVIARIA.</b></p>
+    </section>
+
+    <section class="brasil">
+        <h3>Regiões que Atendemos:</h3>
+
+        <img class="brasil-mapa" src="./assets/brasil.webp" alt="brasil">
+        <p>Atendemos todo territórrio Brasileiro. Saindo do lugar que quer até o destino desejado.</p>
+
+    </section>
+    <section class="servico">
+        <h2>Detalhes do serviço:</h2>
+        <p>A empresa SV <b>LOGÍSTICA</b> consegue fazer tod a Logísticada carga com toda segurança ideal para seu
+            produto.</p>
+        <h2>Quem pode fazer a contratação?</h2>
+        <div class="contratacao">
+            <img class="fabrica" src="./assets/fabrica.jpeg" alt="fabrica">
+            <img class="cliente" src="./assets/cliente.png" alt="cliente">
+            <img class="motorista" src="./assets/motorista.jpg" alt="motorista">
+        </div>
+        <div class="contratacao-titulo">
+            <h3>Fábrica</h3>
+            <h3>Cliente</h3>
+            <h3>Motorista</h3>
+        </div>
+
+
+        <li>Agilidade</li>
+        <li>Flexibilidade</li>
+        <li>Orgaização</ul>
+        <li>Programação</li>
+
+        <p>Colocamos sempre em primeira ondem os 4 pontos citados acima!</p>
+    </section>
+
+
+
+
+
+
+</body>
+
+</html>
