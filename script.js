@@ -7,7 +7,8 @@ let section = document.querySelector(".section")
 function descricao(){}
 
 function cliqueinoBotao() {
-    formulario.style.right= "500px"
+
+    formulario.style.right= "100px"
 
 }
 function voltar() {

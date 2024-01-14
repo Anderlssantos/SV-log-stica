@@ -269,9 +269,8 @@ section{
 }
 .fale-conosco{
     position: fixed;
- 
     transition: right 1s linear;
-
+    
 }
 .descricao-fazemos{
     display: none;
