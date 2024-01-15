@@ -84,7 +84,7 @@ h1 {
     padding: 20px;
     border-radius: 10px;
     gap: 5px;
-    position: fixed;
+    position: absolute;
     right: -330px;
     transition: right 1s linear;
     z-index: 2;
