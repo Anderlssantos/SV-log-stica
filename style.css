@@ -9,7 +9,7 @@
 }
 
 body {
-    background: #422d2d;
+    background: #0a0a0a;
 }
 
 .transporte {
@@ -56,8 +56,8 @@ button {
     color: #fff;
     cursor: pointer;
     align-items: center;
-    
-    
+
+
 }
 
 button:hover {
@@ -72,6 +72,7 @@ button:active {
 h1 {
     font-size: 31px;
     margin-top: 10px;
+
 }
 
 
@@ -95,7 +96,8 @@ h1 {
 
 }
 
-input ,select{
+input,
+select {
     height: 35px;
     width: 250px;
     border-radius: 3px;
@@ -128,7 +130,7 @@ textarea {
 }
 
 .whatsapp-icon {
-    width: 80px;
+    width: 120px;
     margin-top: 10px;
     margin-left: 10px;
     margin-bottom: 30px;
@@ -145,7 +147,11 @@ section {
     padding: 30px;
     margin-bottom: 20px;
     margin-top: 360px;
-    background: #422d2d;
+    background: #0a0a0a;
+}
+
+b {
+    color: #d4f01b;
 }
 
 .missao {
@@ -200,7 +206,7 @@ section {
 
 .fabrica {
     width: 250px;
-    height: 250px;
+
 }
 
 .cliente {
@@ -208,6 +214,10 @@ section {
 }
 
 .motorista {
+    width: 250px;
+}
+
+.construtora {
     width: 250px;
 }
 
@@ -224,8 +234,30 @@ section {
     margin-bottom: 30px;
 }
 
+.duvida {
+    color: #fff;
+    text-align: center;
+
+}
+
+.duvidas {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    color: #fff;
+    width: 100vw;
+
+}
+
+.link {
+    margin-left: 270px;
+    margin-top: 20px;
+
+}
+
 
 @media screen and (max-width:900px) {
+
     .transporte {
         width: 100%;
         height: auto;
@@ -234,47 +266,60 @@ section {
     .Logo-SV {
         width: 150px;
         height: auto;
-       
+
     }
 
     header {
         height: 100%;
-        width: 100%;
+        width: auto;
         padding: 15px;
     }
 
 
- button{
-    margin-top: 50px;
-    margin-left:20px;
- }
-section{
-    margin-top: auto;
-}
-#formulario {
-    margin-left:60px;
-}
-.comprou{
-    display: block;
-    width:150px;
-    align-items: center;
-   
-}
-section{
-    width: 90px;
-}
-.contratacao,.contratacao-titulo{
-    display: block;
-    width: auto;
-    height: auto;
-}
-.fale-conosco{
-    position: fixed;
-    transition: right 1s linear;
-    
-}
-.descricao-fazemos{
-    display: none;
-}
+    button {
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+
+    section {
+        margin-top: auto;
+    }
+
+    #formulario {
+        margin-left: 60px;
+    }
+
+    .comprou {
+        display: block;
+        width: 150px;
+        align-items: center;
+
+    }
+
+    section {
+        width: 90px;
+    }
+
+    .contratacao,
+    .contratacao-titulo {
+        display: block;
+        width: auto;
+        height: auto;
+    }
+
+    .fale-conosco {
+        position: fixed;
+        transition: right 1s linear;
+
+    }
+
+    .descricao-fazemos {
+        display: none;
+    }
+
+    .duvidas {
+       display: flex;
+      
+    }
 
 }
