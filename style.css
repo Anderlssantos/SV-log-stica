@@ -5,7 +5,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-
+ 
 }
 
 body {
@@ -30,8 +30,10 @@ header {
     position: static;
     margin: 30px;
     width: 400px;
+    
 
 }
+
 
 .descricao-fazemos {
     height: 50px;
@@ -261,6 +263,9 @@ b {
     .transporte {
         width: 100%;
         height: auto;
+    }
+    p{
+        color: #fff;
     }
 
     .Logo-SV {
