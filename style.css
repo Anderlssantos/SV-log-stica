@@ -5,7 +5,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
- 
+
 }
 
 body {
@@ -30,7 +30,7 @@ header {
     position: static;
     margin: 30px;
     width: 400px;
-    
+
 
 }
 
@@ -239,22 +239,50 @@ b {
 .duvida {
     color: #fff;
     text-align: center;
+    height: 20px;
 
 }
-
-.duvidas {
+.duvidas{
     display: flex;
-    flex-direction: column;
-    margin-left: 50px;
-    color: #fff;
-    width: 100vw;
-
+    justify-content: space-around;
+    margin-bottom: 20px;
 }
+
 
 .link {
-    margin-left: 270px;
+    width: 150px;
+
+    margin-top: 20px;
+    background: #405DE6;
+
+}
+
+.linkwats {
+
+    width: 150px;
+    background: #1ab708;
+
     margin-top: 20px;
 
+}
+
+.linkImg {
+    height: 30px;
+    width: 40px;
+}
+
+.linkInsta {
+    width: 150px;
+
+    margin-top: 20px;
+
+    background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #F77737, #FCAF45, #FFDC80);
+    animation: gradient 15s ease infinite;
+}
+
+.links {
+    width: 10px;
+    height: 10px;
 }
 
 
@@ -264,7 +292,8 @@ b {
         width: 100%;
         height: auto;
     }
-    p{
+
+    p {
         color: #fff;
     }
 
@@ -284,6 +313,7 @@ b {
     button {
         margin-top: 50px;
         margin-left: 20px;
+        width: auto;
     }
 
     section {
@@ -323,8 +353,8 @@ b {
     }
 
     .duvidas {
-       display: flex;
-      
+        display: flex;
+
     }
 
 }
